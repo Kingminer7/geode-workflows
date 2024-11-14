@@ -1,0 +1,9 @@
+name: Build mod
+description:: Builds a geode mod
+
+inputs:
+  platforms: 
+    description: Platforms to build for. windows, macos, android32, android64
+    required: true
+    default: ["windows", "macos", "android32", "android64"]
+  
